@@ -55,7 +55,7 @@ class _LoginFieldsState extends State<LoginFields> {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(24),
-      decoration: AppDecorations.loginContainer, // ← Aquí se aplica tu estilo
+      decoration: AppDecorations.loginContainer, 
       child: Form(
         key: _formKey,
         child: Column(
