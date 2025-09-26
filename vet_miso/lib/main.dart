@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../styles/text_styles.dart';
-import '../styles/app_decorations.dart'; // ← se agregó esta línea
+import '../styles/app_decorations.dart'; 
 
 void main() {
   runApp(const VetMiso());
@@ -83,7 +83,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(16.0),
           child: Container(
-            decoration: AppDecorations.loginContainer, // ← tu contenedor aplicado
+            decoration: AppDecorations.loginContainer, 
             padding: const EdgeInsets.all(24),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -190,7 +190,7 @@ class WelcomeScreen extends StatelessWidget {
       body: VetMisoBackground(
         child: Center(
           child: Container(
-            decoration: AppDecorations.loginContainer, // ← tu contenedor aplicado
+            decoration: AppDecorations.loginContainer, 
             padding: const EdgeInsets.all(24),
             margin: const EdgeInsets.all(24),
             child: Column(
